@@ -21,7 +21,7 @@ public class ClienteTOTest {
 	public void testGets() {
 		assertEquals("getNome", to.getNome(), "Bela Lugosi");
 		assertEquals("getFone", to.getFone(), "123456789");
-		assertEquals("getId", to.getId(), 3);
+		assertEquals("getId", to.getId(), 3); //sas
 	}
 	
 	@Test
