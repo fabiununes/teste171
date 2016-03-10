@@ -11,7 +11,7 @@ import factory.ConnectionFactory;
 
 public class ConnectionFactoryTest {
 
-	@Test
+	@Test ///
 	public void testObterConexao() {
 		try {
 			assertNotNull("testa se a conexao nao e nula", ConnectionFactory.obtemConexao());
